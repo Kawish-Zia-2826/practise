@@ -412,9 +412,180 @@ $multi =[
 // echo $k ,$v,$p   . "<br>"; 
 // }
 
-$arr = [12,1,21,2,1,2];
+// $arr = [12,1,21,2,1,2];
 
 // print_r(array_fill_keys($arr,"sdff"));
 
-shuffle($arr);
-print_r($arr);
+// shuffle($arr);
+// print_r($arr);
+// include_once('./header.php');
+// include_once('./hkjeader.php');
+// echo "this is practise file";
+
+
+// unlink('file.txt');
+
+
+// session_start();
+// $_SESSION['name'] = "kawish";
+
+// echo "<pre>";
+// print_r($_SESSION);
+// echo "<pre>";
+
+
+// $int = 21.4;
+// $email = "kawihszia2826@gmailcom";
+// var_dump(filter_var($email,FILTER_VALIDATE_EMAIL));
+
+
+// print_r(filter_list());
+
+
+
+// $arr = [
+//   "name"=>"kawish",
+//   "email"=>"kawisdfsd.com"
+// ];
+// $validate = [
+//   "name"=>FILTER_SANITIZE_SPECIAL_CHARS,
+//   "email"=>FILTER_VALIDATE_EMAIL
+// ];
+
+// if(filter_var_array($arr,$validate)){
+// echo "yes";
+// };
+// $email = "dsfdsF@gmail.com";
+
+
+
+// echo filter_input(INPUT_GET,$email);
+
+// $myfile = fopen('text.txt','r');
+// // echo fread($myfile,filesize('text.txt'));
+// // echo fgets($myfile);
+
+// // echo !feof($myfile);
+
+// while(!feof($myfile)){
+//   echo fgets($myfile) ."<br>";
+// }
+// fclose($myfile);
+
+
+// $myfile = fopen("testfile.txt", "r") ; 
+// $txt = "Mickey Mouse\n";
+// fwrite($myfile, $txt);
+// $txt = "Minnie Mouse\n";
+// fwrite($myfile, $txt);
+
+
+// fread($myfile,filesize('testfile.php'));
+// fclose($myfile);
+
+// echo file_put_contents('text.php',"thiesfs");
+// echo file_get_contents('text.php');
+// echo file_put_contents("testfile.txt","Hello World. Testing!");
+
+
+
+// if(is_file('texsdft.php')){
+// echo "yes";
+// }
+
+// print_r(glob('*.txt'));
+
+
+// echo getcwd();
+// chdir("m");
+// echo getcwd();
+
+// print_r(scandir('.'));
+// mail("kawishzia2826@gmail.com","this is subject","this is messaeg");
+// echo "mail sent";
+
+// $i  =0;
+$file = fopen('text.txt','a');
+// while(!feof($file)){
+// echo fgets($file);
+// echo $i = $i+1;
+// }
+// echo $i;
+
+// echo count(file('text.txt'));
+// fwrite($file,"sdfsdfsdf");
+fclose($file);
+// rename('test.txt',"abc.txt");
+// echo copy('abc.txt','asd.txt');
+
+// echo unlink('asd.txt');
+// echo filesize('add.txt') /1024*1024 ."MB";
+// if(is_writable('add.php')){
+// echo "yes";
+// }else{
+//   echo "no";
+// }
+
+// echo basename($_SERVER['PHP_SELF']);
+// $text = 'PHP Tutorial';
+
+// Use a regular expression to replace the first letter of each word with a span element with red color
+// $text = preg_replace('/(\b[a-z])/i', '\1', $text);
+
+// Display the modified text with styled first letters
+// echo $text;
+
+
+// echo fread($file,filesize(getcwd()));
+// $inp = "text.txt";
+// if(is_file($inp)){
+// echo "yes";
+// }
+
+// header("Location: https://example.com/myOtherPage.php");
+// echo !isset($_SERVER['HTTPS']);
+// $eml = "kawsish@gmail.com";
+// echo filter_var($eml,FILTER_VALIDATE_EMAIL);
+
+
+// echo "<table border='2 px col'>
+// <tr>
+// <td>thi si table</td>
+// </tr>
+
+// </table>
+// "
+
+// $all_lines = file('https://www.w3resource.com/');
+
+// // Iterate through each line in the array
+// foreach ($all_lines as $line_num => $line)
+// {
+//     // Display the line number and the HTML-escaped content of the line
+//     echo "Line No.-{$line_num}: " . htmlspecialchars($line) . "\n";
+// }
+// sleep(5);
+// echo getlastmod()*60;
+
+// print_r(error_get_last());
+
+
+// echo(20>10 or 20>10)?  "yes": "not";
+
+// echo 'Current script owner: ' . get_current_user() . "\n";
+$inp = "zero;three;five;six;eight;one";
+$nval = [trim($inp,';');
+
+
+
+foreach($nval as $v){
+  switch($v){
+    case 0:
+      echo "zero";
+      break;
+    default:
+    echo "dfsds";
+    
+    }
+}
+?>
