@@ -188,7 +188,7 @@ is8 */
 // echo count($x,1);
 
 // print_r(array_count_values($x,1));
-$my_array = array(1, 2, 2, 3, 1, 4, 2);
+$my_array = array(1, 2, 2, 3, 1, 4, 2,3,6,8);
 $counts = array_count_values($my_array);
 
 // print_r($counts); 
