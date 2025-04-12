@@ -1,5 +1,5 @@
 <?php 
-// echo ("its working");
+// echo ("its working too");
 // $a = "kawish";
 // this is comment
 
