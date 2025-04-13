@@ -12,7 +12,7 @@ is8 */
 // if(11>10):
 //   echo "false";
 // elseif(3321   >   3  ):
-//   echo"yes";
+//   echo"yessss";
 // else:
 //   echo "no";
 
