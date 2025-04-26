@@ -1,6 +1,6 @@
 <?php 
 // echo ("itsssss working good ggtoo serious");
-// $a = "kawish zia";
+// $a = "kawish ziaaa";
 // this is comment
 
 /*double line comment
